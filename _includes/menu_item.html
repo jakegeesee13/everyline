@@ -1,0 +1,43 @@
+<ul>
+  {% for item in include.collection %}
+    <li>
+    {% if item.url != false %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+    {% else %}
+      {{ item.title }}
+    {% endif %}
+    </li>
+
+    {% if item.beginnings_list == true %}
+      {% include beginnings_list.html %}
+    {% endif %}
+
+    {% if item.essays_list == true %}
+      {% include essays_list.html %}
+    {% endif %}
+
+    {% if item.films_list == true %}
+      {% include films_list.html %}
+    {% endif %}
+
+    {% if item.streams-text_list == true %}
+      {% include streams-text_list.html %}
+    {% endif %}
+
+    {% if item.streams-a_list == true %}
+      {% include streams-a_list.html %}
+    {% endif %}
+
+    {% if item.music_list == true %}
+      {% include music_list.html %}
+    {% endif %}
+
+    {% if item.loves_list == true %}
+      {% include loves_list.html %}
+    {% endif %}
+
+    {% if item.entries != blank %}
+      {% include menu_item.html collection=item.entries %}
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -1,0 +1,30 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: "beginnings"
+    url: beginnings
+
+  - title: "streams [text] "
+    url: streams-text
+    streams-text_list: true
+
+  - title: "streams [audio] "
+    url: streams-audio
+    streams-audio_list: true
+
+  - title: "loves "
+    url: loves
+    loves_list: true
+
+  - title: "music"
+    url: music
+    music_list: true
+
+  - title: films
+    url: films
+    films_list: true
+
+  - title: essays
+    url: essays
+    essays_list: true

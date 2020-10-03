@@ -1,0 +1,9 @@
+{% if site.beginnings.size > 0 %}
+  <ul>
+    {% for post in site.beginnings %}
+      <li>
+        {{ post.date | date: site.theme_config.date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

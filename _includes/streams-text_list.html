@@ -1,0 +1,9 @@
+{% if site.streams-text.size > 0 %}
+  <ul>
+    {% for post in site.streams-text %}
+      <li>
+        {{ post.date | date: site.theme_config.date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

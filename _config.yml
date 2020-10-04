@@ -22,8 +22,8 @@ title: everyline
 email: jackgeise13@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   sancify the ordinary, love...
-baseurl: "/everyline" # the subpath of your site, e.g. /blog
-url: "localhost:4000/everyline" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/everyline1" # the subpath of your site, e.g. /blog
+url: "jakegeesee13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jakegeesee13
 github_username:  jakegeesee13
 
